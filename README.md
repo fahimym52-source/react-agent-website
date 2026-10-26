@@ -1,16 +1,67 @@
-# React + Vite
+# React Agency Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive agency website built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is a responsive agency website designed to present services, showcase portfolio projects, introduce team members, and provide contact information through a clean and user-friendly interface.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive website layout
+- Modern user interface
+- Services section
+- Portfolio showcase
+- Team members section
+- About section
+- Contact section
+- Reusable React components
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- Tailwind CSS
+- Vite
+- React Icons
+- React Router
+
+## Getting Started
+
+To run this project locally, follow these steps.
+
+### 1. Clone the repository
+
+```bash
+git clone YOUR_REPOSITORY_URL
+```
+
+Replace `YOUR_REPOSITORY_URL` with the URL of this GitHub repository.
+
+### 2. Navigate to the project directory
+
+```bash
+cd react-agency-website
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in your terminal to view the website.
+
+## Author
+
+Mohammad Fahimy
+
+---
+
+Built with React and Tailwind CSS.
