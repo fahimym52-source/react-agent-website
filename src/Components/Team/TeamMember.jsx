@@ -2,7 +2,7 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 export default function TeamMember({ title, capsole, image }) {
   return (
-    <div className="text text-center">
+    <div className="text text-center hover:scale-110 duration-300">
       <div>
         <img
           src={image}

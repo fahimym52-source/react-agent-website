@@ -38,7 +38,7 @@ export default function AboutMe() {
               href="/My new CV (2).pdf"
               download
               className="inline-block shadow-xl rounded bg-primary px-6 py-3
-              text-sm font-bold  text-white transition hover:bg-primary-hover"
+              text-sm font-bold  text-white transition hover:bg-primary-hover hover:scale-95"
             >
               Download CV
             </a>
@@ -49,7 +49,7 @@ export default function AboutMe() {
             <img
               src={aboutImage}
               alt="Workspace with laptop and plant"
-              className="h-130 w-full rounded-lg object-cover shadow-sm"
+              className="h-130 w-full rounded-lg object-cover transition shadow-sm  hover:scale-105 duration-300"
             />
           </div>
         </div>

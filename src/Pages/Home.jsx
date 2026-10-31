@@ -1,13 +1,10 @@
 import { useState, useEffect } from "react";
-import About from "../Components/About/About";
+
 import AboutMe from "../Components/AboutMe/AboutMe";
-import Clients from "../Components/Clients/Clients";
-import Contact from "../Pages/contact/Contact";
+
 import Hero from "../Components/Hero/Hero";
 import Navbar from "../Components/Navbar/Navbar";
-import Portfolio from "../Components/Portfolio/Portfolio";
-import Services from "../Components/Services/Services";
-import Team from "../Components/Team/Team";
+
 import { useRef } from "react";
 
 export default function Home() {

@@ -10,7 +10,7 @@ export default function Services() {
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 items-center p-6 gap-20">
-        <div className="mt-10">
+        <div className="mt-10 hover:scale-105 duration-300">
           <div className="w-32 h-32 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-8">
             <FaShoppingCart className="text-white text-5xl" />
           </div>
@@ -24,7 +24,7 @@ export default function Services() {
           </p>
         </div>
 
-        <div>
+        <div className="hover:scale-105 duration-300">
           <div className="w-32 h-32 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-8">
             <FaLaptop className="text-white text-5xl" />
           </div>
@@ -38,7 +38,7 @@ export default function Services() {
           </p>
         </div>
 
-        <div>
+        <div className="hover:scale-105 duration-300">
           <div className="w-32 h-32 bg-yellow-400 rounded-full flex items-center justify-center mx-auto mb-8">
             <FaLock className="text-white text-5xl" />
           </div>

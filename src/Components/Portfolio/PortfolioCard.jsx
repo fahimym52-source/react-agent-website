@@ -2,7 +2,7 @@ export default function PortfolioCard({ title, category, image, onClick }) {
   return (
     <div
       onClick={onClick}
-      className="group cursor-pointer overflow-hidden bg-white shadow-sm border border-border"
+      className="group cursor-pointer overflow-hidden bg-white shadow-sm border border-border hover:scale-105 duration-300"
     >
       {/* Image */}
       <div className="relative overflow-hidden">
